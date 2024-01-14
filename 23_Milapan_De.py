@@ -51,7 +51,7 @@ def square_root():
         equation.set("ERROR")
         expression = "0"
 
-if __name__ == "__main__":
+if __name__== "__main__":
     root = Tk()
     root.geometry("262x260")
     root.title("My first calculator")
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     Button(root, text="7", command=lambda: press(7), bg="lightgreen", fg="black", height=2, width=8).grid(row=2, column=0, padx=0, pady=0)
     Button(root, text="8", command=lambda: press(8), bg="lightgreen", fg="black", height=2, width=8).grid(row=2, column=1, padx=0, pady=0)
     Button(root, text="9", command=lambda: press(9), bg="lightgreen", fg="black", height=2, width=8).grid(row=2, column=2, padx=0, pady=0)
-    Button(root, text="*", command=lambda: press('*'), bg="lightgreen", fg="black", height=2, width=8).grid(row=2, column=3, padx=0, pady=0)
+    Button(root, text="", command=lambda: press(''), bg="lightgreen", fg="black", height=2, width=8).grid(row=2, column=3, padx=0, pady=0)
     Button(root, text="4", command=lambda: press(4), bg="lightgreen", fg="black", height=2, width=8).grid(row=3, column=0, padx=0, pady=0)
     Button(root, text="5", command=lambda: press(5), bg="lightgreen", fg="black", height=2, width=8).grid(row=3, column=1, padx=0, pady=0)
     Button(root, text="6", command=lambda: press(6), bg="lightgreen", fg="black", height=2, width=8).grid(row=3, column=2, padx=0, pady=0)
